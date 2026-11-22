@@ -2,6 +2,8 @@
 
 A dual-microcontroller telerobotics system pairing a **Raspberry Pi Pico W** wearable sensor glove with a **Raspberry Pi 4B** tracked mobile manipulator. The architecture streams real-time 9-axis IMU orientation, finger flex, and dual potentiometer joint telemetry over a persistent TCP socket, combining tilt-compensated compass navigation, multi-threaded 50 Hz `pigpio` servo actuation, ultrasonic obstacle gating, and a 3R planar forward-kinematics collision limiter.
 
+Photos and Videos available here: https://github.com/UMIengineer/telerobotics-glove-controlled-mobile-robot-arm/releases/tag/Telerobotics
+
 ## System Architecture & Control Flow
 
 ```mermaid
